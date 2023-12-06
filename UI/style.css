@@ -1,0 +1,501 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  background-image: url('ii6.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+ 
+/* //ADMIN LOGIN */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+ 
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+ 
+.container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  color: #3498db;
+  margin-bottom: 20px;
+}
+ 
+.container label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+ 
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="date"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+ 
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+ 
+.search-button,
+.clear-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+ 
+.search-button {
+  background-color: #2131dc;
+  color: #fff;
+}
+ 
+.search-button:hover {
+  background-color: #2181c4;
+}
+ 
+body, h1{
+    margin: 0;
+    padding: 0;
+}
+ 
+.site-header {
+  background-color: #3498db;
+  color: #FFFF00;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+}
+ 
+ 
+.main-heading {
+  font-size: 3em;
+  margin: 0;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+ 
+ 
+.site-header::before {
+  content: "";
+  background-image: url('path-to-your-background-image.jpg');
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.login-as-label{
+  color: yellow;
+}
+ 
+ 
+/* //loginAS */
+.login-heading {
+  text-align: center;
+  font-size: 2em;
+  color: #e6ea0a;
+  margin-top: 50px;
+  position: relative;
+}
+ 
+.login-heading::after {
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: #c7dc0c;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+ 
+h3
+{
+  text-align: center;
+}
+ 
+
+.button-container {
+    text-align: center;
+}
+ 
+.button1, .button2 {
+background-color: #41bf13ee;
+color: #ffffff;
+border: none;
+padding: 15px 25px;
+margin-right: 10px;
+cursor: pointer;
+text-align: center;
+border-radius: 6px;
+}
+ 
+body, h1, p {
+margin: 0;
+padding: 0;
+}
+ 
+.site-content {
+min-height: calc(100vh - 60px); 
+padding: 20px;
+box-sizing: border-box;
+}
+ 
+.site-footer {
+background-color: #286d76;
+color: #c4e312;
+text-align: center;
+padding: 20px 0;
+position: absolute;
+bottom: 0;
+width: 100%;
+size: 100%;
+}
+ 
+.author-name {
+font-weight: bold;
+color: #0ee051;
+}
+ 
+/* find result page */
+body, h1, form, label, input, button {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+ 
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+ 
+  .search-form {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  label {
+    margin-bottom: 5px;
+  }
+ 
+  input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+  }
+ 
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+ 
+  .clear-button:hover{
+    background-color:cadetblue;
+  }
+ 
+  .search-button:hover{
+    background-color: lightgreen;
+  }
+ 
+/* add new result: */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+ 
+.container {
+  width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
+ 
+h1
+{
+  text-align: center;
+}
+ 
+form
+{
+  display: flex;
+  flex-direction: column;
+}
+ 
+label
+{
+  margin-top: 2px;
+}
+ 
+input
+{
+  padding: 8px;
+  margin: 3px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+ 
+/* //back button */
+.button-63 {
+  text-align:end;
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 10px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 70%;
+  min-width: 100px;
+  padding: 5px 7px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 35px;
+}
+ 
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+ 
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+ 
+ 
+/* //LOGOUT BUTTON */
+#logoutContainer
+{
+  margin-right: 100px;
+  margin-top: -35px;
+  text-align:end;
+}
+ 
+#logoutButton
+ {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+#logoutButton:hover
+{
+  background-color: #d32f2f;
+}
+ 
+#logoutContainer2
+{
+  margin-right: 550px;
+  margin-top:   10px;
+  text-align:end;
+}
+ 
+#logoutButton2
+ {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+#logoutButton2:hover
+{
+  background-color: #d32f2f;
+}
+ 
+/* //result-table */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+ 
+#resultContainer {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+ 
+#table {
+  width: 100%;
+  border-collapse: collapse;
+}
+ 
+#table th,
+#table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+ 
+#table th {
+  background-color: #3498db;
+  color: #fff;
+}
+ 
+#table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+ 
+#table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+ 
+/*displayallresult: */
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#resultContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+.action-icons {
+    display: flex;
+    justify-content: center;
+}
+.edit-icon, .delete-icon {
+    cursor: pointer;
+    margin: 0 5px;
+}
+ 
+.resulth1{
+  text-align: center;
+  font-size: 2.5em;
+  color: #fdfd0cf3;
+  margin: 30px 0;
+  position: relative;   
+}
+ 
+.resulth1::before {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #a3e90b;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+ 
+#studentDataContainer {
+  margin: 30px auto;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+ 
+#teachertable {
+  width: 100%;
+  border-collapse: collapse;
+}
+ 
+#teachertable th,
+#teachertable td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+ 
+#teachertable th {
+  background-color: #3498db;
+  color: #fff;
+}
+ 
+#teachertable tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+ 
+#teachertable tbody tr:hover {
+  background-color: #e0e0e0;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management Result</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <header class="site-header">
+        <h1 class="main-heading">RESULT MANAGEMENT SYSTEM</h1>
+    </header>
+ 
+    <h1 class="resulth1">Your Result</h1>
+    <div id="resultContainer">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Roll Number</th>
+                    <th>Name</th>
+                    <th>Date of Birth</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+ 
+            <tbody id="tbody">
+ 
+            </tbody>
+ 
+        </table>
+    </div>
+ 
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const encodedData = urlParams.get('data');
+ 
+        const decodedData = decodeURIComponent(encodedData);
+        const data = JSON.parse(decodedData);
+ 
+        var tbody = document.getElementById("tbody");
+ 
+        let row = document.createElement("tr")
+        let c1 = document.createElement("td");
+        let c2 = document.createElement("td");
+        let c3 = document.createElement("td");
+        let c4 = document.createElement("td")
+        console.log(data.DOB.slice(0,10));
+        console.log(new Date(data.DOB));
+ 
+ 
+        c1.innerText = data.rollno;
+        c2.innerText = data.name;
+        const date = new Date(data.DOB);
+        const newdate = date.getDate() + '-' +  (date.getMonth()+1) + '-' + date.getFullYear();
+ 
+        c3.innerText = newdate
+        c4.innerText = data.marks;
+        row.appendChild(c1);
+        row.appendChild(c2);
+        row.appendChild(c3);
+        row.appendChild(c4);
+        table.appendChild(row)
+       
+    </script>
+ 
+    <div id="logoutContainer2">
+        <button onclick="location.href='index.html'; " id="logoutButton2">Logout</button>
+    </div>
+ 
+    <footer class="site-footer">
+        <p>&copy;All rights reserved. Created by <span class="author-name">Varun Bajpai</span></p>
+    </footer>
+ 
+</body>
+</html>
