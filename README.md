@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This NodeJS assignment is a simple web application that allows two types of users (Students and Teachers) to interact with the system. The application uses HTML, CSS, and JavaScript for the frontend, while the backend is powered by Express and NodeJS. SQL is used as the database to store and retrieve user data.
+This NodeJS assignment is a simple web application that allows two types of users (Students and Teachers) to interact with the system. The application uses HTML, CSS, and JavaScript for the Frontend, while the Backend is powered by Express and NodeJS. SQL is used as the database to store and retrieve user data.
 
 ## Features
 
@@ -33,13 +33,13 @@ Ensure that the following software is installed on your machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/nodejs-assignment.git
+   git clone https://github.com/vrun545/StudentMangementPortal_NodeJS.git
    ```
 
 2. Change to the project directory:
 
    ```bash
-   cd nodejs-assignment
+   cd StudentMangementPortal_NodeJS
    ```
 
 3. Install dependencies:
@@ -77,9 +77,6 @@ Ensure that the following software is installed on your machine:
 - Backend: Node.js, Express
 - Database: SQL (e.g., MySQL, PostgreSQL)
 
-## Contributing
-
-If you'd like to contribute to the project, please follow the [contribution guidelines](CONTRIBUTING.md).
 
 ## License
 
